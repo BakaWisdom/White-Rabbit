@@ -19,10 +19,13 @@ characters:
             - Bridges
     jordan:
         # Note that this can be empty, or the "role" line can be removed entirely.
+        role: Friend
         full-name: Jordan Foster
     jack:
+        role: Sibling
         full-name: Hollis Briarwood
     julia:
+        role: Lover
         full-name: Steven Yates
 
 # List of suspects. Descriptions optional, colons are not.

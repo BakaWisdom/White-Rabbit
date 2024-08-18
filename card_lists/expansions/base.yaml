@@ -5,7 +5,7 @@ characters:
     # Must match character card filename.
     charlie:
         # The name of the role to use when setting up the Discord server. Optional, defaults to <key>.capitalize()
-        role: Charlie
+        role: Charlie #TODO swap to instigator
         # The character's full name. Optional, defaults to <key>.capitalize()
         # If you want to use the PDF export function, you should set either
         # this or pdf-name-format
@@ -18,13 +18,15 @@ characters:
             - Barnes
     dakota:
         # Note that this can be empty, or the "role" line can be removed entirely.
-        role:
+        role: Friend
         full-name: Dakota Travis
     evan:
         full-name: Evan Holwell
     jack:
+        role: Sibling
         full-name: Jack Briarwood
     julia:
+        role: Lover
         full-name: Julia North
 
 # List of suspects. Descriptions optional, colons are not.
